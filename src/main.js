@@ -6,6 +6,11 @@ import store from './store'
 // 加载全局样式文件
 import '@/styles/index.less'
 
+// 全局导入vant
+import Vant from 'vant'
+import 'vant/lib/index.css'
+Vue.use(Vant)
+
 Vue.config.productionTip = false
 
 new Vue({
